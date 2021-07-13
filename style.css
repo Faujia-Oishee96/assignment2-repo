@@ -28,3 +28,27 @@ body{
 .nav-img{
     margin-right: 150px;
 }
+/* main part  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px 20px;
+    width: 60%;
+    margin:20px 0 20px 250px;
+}
+.player{
+    width: 250px;
+    height: 355px;
+    box-shadow: 3px 3px 8px gray;
+}
+.player img{
+       height:200px ;
+       width: 190px;
+       padding: 5px;
+}
+.player h3{
+    margin: 0;
+}
+.player p{
+    margin: 5px;
+}
