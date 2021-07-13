@@ -1,0 +1,30 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* navigation part  */
+.navbar{
+    background-color: rgba(10, 10, 185, 0.849);
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+.nav-title{
+    color: white;
+    margin-left: 150px;
+}
+.nav-title a{
+    background-color:rgb(250, 32, 141);
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+}
+.nav-img img{
+    height: 338px;
+    width: 456px;
+}
+.nav-img{
+    margin-right: 150px;
+}
