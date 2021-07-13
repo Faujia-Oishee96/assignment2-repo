@@ -52,3 +52,11 @@ body{
 .player p{
     margin: 5px;
 }
+footer{
+    text-align: center;
+    margin:40px 0 40px 0;
+}
+footer img{
+    height: 213px;
+    width: 50%;
+}
