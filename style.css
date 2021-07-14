@@ -99,6 +99,28 @@ p{
     margin: 5px;
 }
 
+/* highlights */
+.highlights{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-column-gap:80px;
+    margin: 80px 0 80px 0;
+}
+.description{
+    width: 329px;
+    height: 299px;
+}
+.btn a{
+    background-color:rgb(250, 32, 141);
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.match-img img{
+    height:356px ;
+    width: 500px;
+}
 /* official sponser */
 .sponser-area{
     margin:60px 0 60px 0;
@@ -180,13 +202,20 @@ footer{
         font-size: 2rem;
         padding: 10px 250px 0 0;
     }
+    .match-img{
+        margin-bottom:30px;
+    }
+    .match-img img{
+        width: 330px;
+        height: 274px;
+    }
     .footer-img img{
         width: 300px; 
     }
     .container, .navbar{
         width: 100%;
     }
-    .navbar, .players, .videos{
+    .navbar, .players, .highlights{
          grid-template-columns:repeat(1,1fr); 
     }
     .company-name a{
@@ -227,7 +256,17 @@ footer{
     .container, .navbar{
         width: 100%;
     }
-    .navbar, .players, .videos{
+    .highlights{
+        /* margin-bottom: 60px;
+        margin-right: 10px;
+        margin-left: 10px; */
+        margin:60px 20px;
+    }
+    .match-img img{
+        width: 330px;
+        height: 274px;
+    }
+    .navbar, .players, .highlights{
          grid-template-columns:repeat(2,1fr); 
     }
     .nav-title{
