@@ -36,6 +36,7 @@ p{
 .nav-title h1{
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
 }
 .nav-btn{
     margin-top: 38px;
@@ -98,41 +99,59 @@ p{
     margin: 5px;
 }
 
-/* video section  */
-.Highlights{
-    margin-top: 60px;
-    margin-bottom: 60px;
+/* official sponser */
+.sponser-area{
+    margin:60px 0 60px 0;
 }
-.Highlights h1{
-    font-size: 2.5rem;
-    color: rgba(13, 13, 109, 0.767);
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
+.sponser-title{
+      font-size: 2.5rem;
 }
-.videos{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 27px 30px;
-    margin:70px 0 20px 0;
-    border: 5px solid gray;
+.company-name{
+    margin-top: 40px;
 }
-.video{
-    width: 320px;
-    height: 350px;
-    margin: 15px;
+.company-name a{
+text-decoration: none;
+padding:10px 20px;
 }
-.video video{
-    height:256px ;
-    width: 300px;
-    border-radius: 10px;
+#tcl{
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin: 10px;
 }
-.vedio-desc p{
-   margin: 0;
+#kwai{
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: orangered;
+    font-size: 1.7rem;
+    margin: 10px;
 }
-
+#betson{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+#sinovac{
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: black;
+    font-size: 1.7rem;
+    margin: 10px;
+    font-weight: 700;
+}
+span{
+    color: brown;
+}
 /*---------------------
     footer part 
 -------------------*/
+footer{
+    margin: 60px 0 60px 0;
+}
 
 .footer-img img{
     height: 120px;
@@ -157,17 +176,53 @@ p{
     body{
         overflow-x: hidden;
     }
+    .nav-title h1{
+        font-size: 2rem;
+        padding: 10px 250px 0 0;
+    }
+    .footer-img img{
+        width: 300px; 
+    }
     .container, .navbar{
         width: 100%;
     }
     .navbar, .players, .videos{
          grid-template-columns:repeat(1,1fr); 
     }
+    .company-name a{
+        padding:5px 10px;
+        }
+    #tcl{
+         font-size: 1rem;
+         margin: 5px;
+    }
+    #kwai{
+        font-size: 1rem;
+        margin: 5px;
+    }
+    #betson{
+        font-size: 1rem;
+        margin: 5px;
+    }
+    #sinovac{
+        font-size: 1rem;
+        margin: 5px;
+    }
 }
 /* tab  */
 @media only screen and (min-width:689px) and (max-width:991px) {
     body{
         overflow-x: hidden;
+    }
+    .nav-title{
+        padding-left: 20px;
+    }
+    .nav-title h1{
+          font-size: 1.7rem;
+          
+    }
+    .nav-img img{
+        margin-left: 120px;
     }
     .container, .navbar{
         width: 100%;
