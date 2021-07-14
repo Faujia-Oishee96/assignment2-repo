@@ -104,6 +104,7 @@ p{
     color: #562EFF;
     font-size: 2rem;
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 .description{
     width: 329px;
