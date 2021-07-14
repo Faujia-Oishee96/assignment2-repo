@@ -28,7 +28,8 @@ p{
 }
 .nav-title h1{
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+
     font-size: 3rem;
 }
 .nav-btn{
@@ -104,7 +105,8 @@ p{
     color: #562EFF;
     font-size: 2rem;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Roboto Slab', serif;
 }
 .description{
     width: 329px;
@@ -134,6 +136,7 @@ p{
     color: #562EFF;
     font-size: 24px;
     margin-top: 3px;
+    font-family: 'Roboto Slab', serif;
 }
 .players-rating{
     display: grid;
@@ -272,6 +275,7 @@ footer{
         margin: 5px;
     }
 }
+
 /* tab  */
 @media only screen and (min-width:689px) and (max-width:991px) {
     body{
