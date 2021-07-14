@@ -25,6 +25,10 @@ p{
 .nav-title{
     color: white;
      margin-left: 10px;
+     transition: transform 2s ease-in-out;
+}
+.nav-title:hover{
+    transform: scale(1.2);
 }
 .nav-title h1{
     margin: 0;
@@ -235,11 +239,15 @@ footer{
     body{
         overflow-x: hidden;
     }
+    .nav-title:hover{
+        transform: scale(0.8);
+    }
     .nav-title h1{
         font-size: 2rem;
         padding: 10px 250px 0 0;
     }
     .match-img{
+        margin-top:0px;
         margin-bottom:30px;
     }
     .match-img img{
@@ -284,6 +292,9 @@ footer{
     .nav-title{
         padding-left: 20px;
     }
+    .nav-title:hover{
+        transform: scale(0.8);
+    }
     .nav-title h1{
           font-size: 1.7rem;
           
@@ -295,9 +306,6 @@ footer{
         width: 100%;
     }
     .highlights{
-        /* margin-bottom: 60px;
-        margin-right: 10px;
-        margin-left: 10px; */
         margin:60px 20px;
     }
     .match-img img{
